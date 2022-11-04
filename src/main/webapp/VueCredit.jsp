@@ -26,17 +26,17 @@ CreditModel model = (CreditModel) request.getAttribute("creditModel");
 					<div class="panel-heading">Simulation du credit</div>
 					<div class="panel-body">
 						<form action="CalculerMentionalite.php" method="post">
-							<div class="form-gourp">
+							<div class="form-group">
 								<label class="control-label">Montant:</label> <input
 									class="form-control" type="text" name="montant"
 									value="<%=model.getMontant()%>" />
 							</div>
-							<div class="form-gourp">
+							<div class="form-group">
 								<label class="control-label">Taux:</label> <input
 									class="form-control" type="text" name="taux"
 									value="<%=model.getTaux()%>" />
 							</div>
-							<div class="form-gourp">
+							<div class="form-group">
 								<label class="control-label">Durée:</label> <input
 									class="form-control" type="text" name="duree"
 									value="<%=model.getDuree()%>" />
